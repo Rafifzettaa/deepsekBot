@@ -1,0 +1,15 @@
+2025/02/15-03:38:25.232 5fe0 Reusing MANIFEST D:\Zetta-Folder\newTool\webTRI\aibotwa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/15-03:38:25.233 5fe0 Recovering log #83
+2025/02/15-03:38:25.304 5fe0 Reusing old log D:\Zetta-Folder\newTool\webTRI\aibotwa\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000083.log 
+2025/02/15-03:38:28.134 5fe0 Level-0 table #89: started
+2025/02/15-03:38:28.181 5fe0 Level-0 table #89: 292497 bytes OK
+2025/02/15-03:38:28.185 5fe0 Delete type=0 #83
+2025/02/15-03:38:28.187 5fe0 Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/15-03:38:32.861 4f94 Compacting 1@1 + 2@2 files
+2025/02/15-03:38:33.011 4f94 Generated table #90@1: 44357 keys, 2208641 bytes
+2025/02/15-03:38:33.079 4f94 Generated table #91@1: 26253 keys, 699435 bytes
+2025/02/15-03:38:33.079 4f94 Compacted 1@1 + 2@2 files => 2908076 bytes
+2025/02/15-03:38:33.083 4f94 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/02/15-03:38:33.083 4f94 Delete type=2 #85
+2025/02/15-03:38:33.083 4f94 Delete type=2 #86
+2025/02/15-03:38:33.083 4f94 Delete type=2 #89
