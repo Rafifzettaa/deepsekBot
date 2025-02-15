@@ -100,17 +100,21 @@ async function getAIResponse(userMessage, role = "default") {
 client.on("message", async (message) => {
   console.log(`📩 Pesan diterima dari ${message.from}: ${message.body}`);
 
+  if (!message.body.startsWith("!ai")) return;
+
+  const userMessage = message.body.replace("!ai", "").trim();
+  if (!userMessage) return;
+
   let role = "default";
-  if (message.body.startsWith("/role ")) {
-    const parts = message.body.split(" ");
+  if (userMessage.startsWith("/role ")) {
+    const parts = userMessage.split(" ");
     role = parts[1];
     message.reply(`🔄 Peran diubah menjadi: ${role}`);
     return;
   }
 
-  const aiReply = await getAIResponse(message.body, role);
+  const aiReply = await getAIResponse(userMessage, role);
   client.sendMessage(message.from, aiReply);
 });
 
-// Jalankan bot
 client.initialize();
